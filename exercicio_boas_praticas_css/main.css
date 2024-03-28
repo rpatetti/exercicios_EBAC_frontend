@@ -5,21 +5,21 @@
 }
 
 .produtos {
-    max-width: 640px; /* Defina a largura máxima dos produtos para evitar que ocupem a largura total da tela */
-    margin: 56px auto; /* Centralize os produtos na página */
-    display: grid; /* Use CSS Grid para definir o layout */
-    grid-template-columns: repeat(3, 1fr); /* Crie 3 colunas com largura igual */
-    gap: 1%; /* Adicione espaçamento entre as colunas */
+    max-width: 640px; 
+    margin: 56px auto; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1%; 
 }
 
 .produto {
-    border: 1px solid #ccc; /* Adicionando uma borda ao redor do bloco produto */
-    padding: 10px; /* Adicionando um preenchimento interno */
-    box-sizing: border-box; /* Certifique-se de que a largura inclui o preenchimento e a borda */
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    box-sizing: border-box; 
 }
 
 .produto__imagem {
-    width: 100%; /* Fazendo a imagem ocupar 100% da largura do seu contêiner */
+    width: 100%; 
 }
 
 .produto__nome {
